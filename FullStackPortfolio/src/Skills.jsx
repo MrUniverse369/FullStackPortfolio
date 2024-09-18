@@ -6,7 +6,7 @@ function Skills(props){
    <div className = "Skills">
    <h2><u>Skills</u></h2>
       <div className="SkillsTable"> 
-      <div className="toolUsed"><h3>HTML</h3><img src="./src/html.png"></img></div>
+      <div className="toolUsed"><h3>HTML</h3><img src="/images/html.png"></img></div>
       <div className="toolUsed"><h3>CSS</h3><img src="./src/css.png"></img></div>
       <div className="toolUsed"><h3>JavaScript</h3><img src="./src/javascript.png"></img></div>
       <div className="toolUsed"><h3>React</h3><img src="./src/React.png"></img></div>
