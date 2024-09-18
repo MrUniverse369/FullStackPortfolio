@@ -1,0 +1,19 @@
+
+.About{
+    display: grid;
+    grid-template-columns: 2.5fr 4fr 1fr;
+    grid-template-rows: 1fr;
+    color: aliceblue;
+    background-color: #8ECAE6;
+}
+
+.About>div{
+    padding: 5rem;
+    margin: 5rem;
+}
+
+.Abouttext{
+    padding: 0rem;
+    margin: 0rem;
+    
+}

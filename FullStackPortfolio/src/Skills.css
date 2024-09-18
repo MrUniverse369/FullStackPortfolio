@@ -1,0 +1,32 @@
+.SkillsTable{
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   color: aliceblue;
+}
+
+
+.Skills{
+    background-color: #219EBC;
+}
+
+.Skills>h2{
+    color: aliceblue;
+    font-size: 2.5rem;
+    padding: 1rem;
+    margin: 0rem;
+    text-align: center;
+}
+
+.toolUsed{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+img{
+    width: 25%;
+    padding-left: 5rem;
+    margin: 0rem;
+}
