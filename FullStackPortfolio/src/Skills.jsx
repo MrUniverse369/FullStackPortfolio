@@ -3,7 +3,7 @@ import './Skills.css'
 function Skills(props){
     return(
         
-   <div className = "Skills">
+   <div className = "Skills" id='Skills'>
    <h2><u>Skills</u></h2>
       <div className="SkillsTable"> 
       <div className="toolUsed"><h3>HTML</h3><img src="/images/html.png"></img></div>
