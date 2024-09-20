@@ -49,3 +49,54 @@ border: 5px solid whitesmoke;
     background-color: whitesmoke;
     color: black;
 }
+
+/*--------------------------------------------------------------------------------------------- Mobile responsiveness ------------------------------------------------------------------------------------------------------------------------*/
+
+@media(max-width:900px){
+    .projectImg{
+        width: 75%;
+
+        align-items: center;
+        margin: 2rem;
+        padding: 0rem;
+        border: 5px solid whitesmoke;
+    }
+
+
+
+    .ProjectItemOne,.ProjectItemTwo,.ProjectItemThree,.ProjectItemFour,.ProjectItemFive,.ProjectItemSix{
+        display: flex;
+        flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        }
+
+        h5{
+            font-size: 4rem;
+            margin: 0rem;
+        }
+
+        p{
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+
+}
+
+
+@media(max-width:500px){
+    .projectImg{
+        max-width: 100;
+        align-items: center;
+        margin: 2rem;
+        padding: 0rem;
+        border: 5px solid whitesmoke;
+    }
+
+}

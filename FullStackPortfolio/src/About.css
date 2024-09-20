@@ -28,3 +28,31 @@ margin-right: 2rem;
     margin: 0rem;
     
 }
+
+
+@media(max-width:500px){
+    .About{
+       display: flex;
+       flex-direction: column;
+    }
+    .About>div>h1{
+        font-size: 4rem;
+    }
+    .About>div>h2{
+        font-size: 3rem;
+    }
+    .About>div>p{
+        font-size: 2rem;
+    }
+    .About>div{
+    padding: 0rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+    
+    }
+    
+    
+}
