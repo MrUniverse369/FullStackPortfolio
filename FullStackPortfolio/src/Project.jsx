@@ -12,6 +12,16 @@ function Project(props){return(
 </div>
 
 </div>
+
+<div className='ProjectItemTwo'>
+<img className='projectImg' src='/images/Azure.png'></img>
+<div><h5>Azure Horizon, website.</h5>
+  <p>Azure Horizon is a hotel website featuring room booking, event planning, and hotel information. Personally executed HTML, CSS, JavaScript, and Bootstrap to deliver a user-friendly, responsive, and visually appealing web experience.</p>
+     <a  href='https://mruniverse369.github.io/AzureHorizon/index.html' target="_blank"  className='btn'>Live Demo</a>
+     <a  href='https://github.com/MrUniverse369/AzureHorizon' target="_blank" className='btn'>GitHub</a>
+</div>
+</div>
+
  <div className='ProjectItemTwo'>
 <img className='projectImg' src='/images/Set8JamsWeb.png'></img>
 <div><h5>Set8Jams, website.</h5>
@@ -21,8 +31,11 @@ function Project(props){return(
      <a href='https://github.com/MrUniverse369/Set8JamsReactWeb' target="_blank" className='btn'>GitHub</a>
 </div>
  </div>
+
+ 
+
  <div className='ProjectItemThree'>
-<img className='projectImg' src='/images/HNLSandFour.png'></img>
+<img className='projectImg' src='/images/HNLFive.png'></img>
 <div><h5>Harvey's Nine Lives, Game.</h5>
   <p>Harveys nine lives is a 2d platform where you step into the paws of a feline archaeologist navigating treacherous tombs whilst doing your best to avoid any traps to get to the hidden treasures these temples hold. I developed the game using C#, Unity and Aseprite.
 </p>
@@ -47,6 +60,7 @@ function Project(props){return(
   <a href='https://github.com/MrUniverse369/BattleShip' target="_blank" className='btn'>GitHub</a>
 </div>
  </div>
+
  <div className='ProjectItemSix'>
 <img className='projectImg' src='/images/SnakesAndLadders.png'></img>
 <div><h5>Snakes and Ladders, C++ Console application.</h5>
@@ -54,6 +68,8 @@ function Project(props){return(
   <a href='https://github.com/MrUniverse369/SnakesandLadders' target="_blank" className='btn' >GitHub</a>
 </div>
  </div>
+
+
 </div>
 
 )}
