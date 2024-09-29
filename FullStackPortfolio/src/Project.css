@@ -11,6 +11,7 @@
     text-align: center;
     font-size: 5rem;
 }
+
 .ProjectItemOne,.ProjectItemTwo,.ProjectItemThree,.ProjectItemFour,.ProjectItemFive,.ProjectItemSix,.ProjectItemSeven{
 display: flex;
 flex-direction: row;
@@ -55,7 +56,6 @@ border: 5px solid whitesmoke;
 @media(max-width:900px){
     .projectImg{
         width: 75%;
-
         align-items: center;
         margin: 2rem;
         padding: 0rem;
@@ -76,27 +76,64 @@ border: 5px solid whitesmoke;
         margin-right: 0rem;
         }
 
+        
+
         h5{
-            font-size: 4rem;
-            margin: 0rem;
+            font-size: 3rem;
+            margin-left: 4rem;
+            margin-right: 4rem;
         }
 
         p{
-            margin-top: 1rem;
+            margin-top: 0rem;
             margin-bottom: 2rem;
-            font-size: 2rem;
+            margin-left: 4rem;
+            margin-right: 4rem;
+            font-size: 1.5rem;
         }
 
 }
 
 
-@media(max-width:500px){
+@media(max-width:785px){
     .projectImg{
         max-width: 100;
         align-items: center;
         margin: 2rem;
         padding: 0rem;
         border: 5px solid whitesmoke;
+    }
+
+    .ProjectsContainer>h2{
+        text-align: center;
+        font-size: 3rem;
+    }
+    h5{
+        font-size: 2rem;
+        margin: 0rem;
+    }
+
+    p{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        font-size: 1rem;
+    }
+
+    .btnCon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+
+    .btn{
+    
+        font-size: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+        background-color:  #023047;
+        border-radius: 1rem;
     }
 
 }

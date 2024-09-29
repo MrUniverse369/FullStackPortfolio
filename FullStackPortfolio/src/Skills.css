@@ -51,7 +51,7 @@ img{
     
 }
 
-@media(max-width:700px){
+@media(max-width:785px){
     .SkillsTable{
         display: grid;
         grid-template-columns: repeat(3,1fr);
@@ -61,13 +61,21 @@ img{
     
 }
 
-@media(max-width:500px){
+@media(max-width:450px){
+
     .SkillsTable{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         color: aliceblue;
      }
      
-    
+     .toolUsed{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 0.6rem;
+        padding: 1rem;
+        margin: 1rem;
+    }
 }
 
