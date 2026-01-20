@@ -8,7 +8,7 @@ function Project(props){return(
 <div><h5>Xylo, website.</h5>
   <p>Xylo is a fullstack  website for a Fintech, featuring RESTful APIs and crud operations. The site allows users to  create accounts, shop for payment hardware and software, and request customer service/sales team support via form submission. This was a solo project in which I personally implemented EJS, CSS (using Flexbox and Grid), JavaScript,Node.js Express.js REST APIs, and SQL managed through postgresql to deliver a user-friendly, responsive, and visually appealing web experience</p>
   <div className='btnCon'>
-     <a  href='https://xylo.ltd/' target="_blank"  className='btn'>Live Demo</a>
+     <a  href='https://xylo-xce9.onrender.com' target="_blank"  className='btn'>Live Demo</a>
      <a  href='https://github.com/MrUniverse369/Xylo' target="_blank" className='btn'>GitHub</a>
      </div>
 </div>
